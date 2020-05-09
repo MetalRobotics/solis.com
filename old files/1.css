@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    border: 10px solid transparent;
+}
+
+body{
+    
+    margin: 50px;
+    background-image: url(0.jpg);
+    background-size: cover;
+    }
+
+div{
+    padding: 30px   ;
+}
+h1{
+    font-size: 700%;
+    color: aquamarine;
+    font-family: serif;
+    text-align: left;
+  }
+
+
+
+h2{
+    color: rgb(201, 201, 201);
+    text-align: right;
+  }
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border:1px solid honeydew;
+    width: 800px;
+    height: 500px;
+
+}
+
+img:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+p{
+    color:rgb(255, 255, 255);
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.1s ease;
+}
+
+ul li a:hover{
+    background-color: green;
+    color: pink;
+}
+
+ul li.active a{
+    background-color: khaki;
+    color: black;
+}
+
+  #wrapper{
+    width: 70px;
+    height: 70px;
+    margin: 60px;
+    display: inline-flex;
+    padding-left: 50px;
+}
+
+.box{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    font-family: entypo;
+    color: #212121;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.box:hover{
+    color: white;
+    transform: scale(1.15);
+    transition: 1s;
+
+}
+#facebook:hover{
+    background-color: rgb(59,89,152);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+}
+#instagram:hover{
+    background-color: darkviolet;
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+}
+#google:hover{
+    background-color: rgb(221,75,57);
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+}
+#linkedin:hover{
+    background-color: black;
+    box-shadow: inset 0 0 0 22px #3A5795;
+    transform: rotate(360deg) scale(1.15);
+    transition: 1s;
+}
